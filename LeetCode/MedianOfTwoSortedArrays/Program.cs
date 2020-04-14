@@ -99,6 +99,47 @@ namespace MedianOfTwoSortedArrays
             }
 
             int iMin = 0, iMax = m, halfLen = (m + n + 1) / 2;
+            while (iMin<=iMax)
+            {
+                int i = (iMin + iMax) / 2;
+                int j = halfLen - i;
+
+                if (i > iMin && a[i-1]>b[j])
+                {
+                    iMax = i - 1;
+                    
+                }
+                else if (i < iMax && b[j - 1] > a[i])
+                {
+                    iMin = i + 1;
+                    
+                }
+                else
+                {
+                    int maxLeft = 0;
+                    if (i == 0) maxLeft = b[j - 1];
+                    else if (j == 0) maxLeft = a[i - 1];
+                    else maxLeft = Math.Max(a[i - 1], b[j - 1]);
+
+
+                    int minRight = 0;
+                    if (i == m) minRight = b[j];
+                    else if (j == n) minRight = a[i];
+                    else minRight = Math.Min(a[i], b[j]);
+
+                    if ((m+n)%2==1)
+                    {
+                        return maxLeft;
+                    }
+                    else
+                    {
+                            return (maxLeft+minRight) / 2.0;
+                    }
+                }
+
+            }
+
+            return 0.0;
         }
 
         
