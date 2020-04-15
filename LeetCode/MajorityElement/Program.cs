@@ -23,8 +23,10 @@ namespace MajorityElement
         {
             int[] x = {3, 2, 3};
             int[] y = {2, 2, 1, 1, 1, 2, 2};
+            int[] z = {8, 9, 8, 9, 8};
             Console.WriteLine(MajorityElement(x));
             Console.WriteLine(MajorityElement(y));
+            Console.WriteLine(MajorityElement(z));
         }
 
         public static int MajorityElement(int[] nums)
@@ -63,7 +65,7 @@ namespace MajorityElement
         public static int CountInRange(int[] nums, int num, int lo, int hi)
         {
             int count = 0;
-            for (int i = lo; i < hi; i++)
+            for (int i = lo; i <= hi; i++)
             {
                 if (nums[i] == num)
                 {
