@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Immutable;
+using System.Security.Cryptography;
 
 namespace KthLargestElementInAnArray
 {
@@ -29,13 +31,81 @@ namespace KthLargestElementInAnArray
             int kx = 2;
             int[] y = {3, 2, 3, 1, 2, 4, 5, 5, 6};
             int ky = 4;
-            Console.WriteLine(FindKthLargest(x,kx));
-            Console.WriteLine(FindKthLargest(y,ky));
+            int[] z = {7, 6, 5, 4, 3, 2, 1};
+            int kz = 2;
+            int[] a = {0};
+            
+            Console.WriteLine(FindKthLargest(x,kx));//输出5
+            Console.WriteLine(FindKthLargest(y,ky));//输出4
+            Console.WriteLine(FindKthLargest(z,kz));//输出6
+            Console.WriteLine(FindKthLargest(a, 1));//输出0
+
+
+            int[] b = { 2, 1 };
+            Console.WriteLine(FindKthLargest(b,2));//输出1
         }
 
         public static int FindKthLargest(int[] nums, int k)
         {
+            //排序
+            //Array.Sort(nums);
+            //return nums[nums.Length-k];
 
+            //分治，快排
+            int len = nums.Length;
+            int low = 0;
+            int high = len - 1;
+
+            // 转换一下，第 k 大元素的索引是 len - k
+            int target = len - k;
+
+            while (true)
+            {
+                int index = QuickSort(nums, low, high);
+                if (index == target)
+                {
+                    return nums[index];
+                }
+                else if (index < target)
+                {
+                    low = index + 1;
+                }
+                else
+                {
+                    high = index - 1;
+                }
+            }
+        }
+
+        public static int QuickSort(int[] nums, int low, int high)
+        {
+            Random r = new Random();
+            int randomIndex;
+            if (low < high)
+            {
+                randomIndex = low + 1 + r.Next(0, high - low);
+                Swap(nums, low, randomIndex);
+            }
+
+            int pivot = nums[low];
+            int j = low;
+            for (int i = low + 1; i <= high; i++)
+            {
+                if (nums[i] < pivot)
+                {
+                    j++;
+                    Swap(nums, i, j);
+                }
+            }
+            Swap(nums, low, j);
+            return j;
+        }
+
+        public static void Swap(int[] nums, int i, int j)
+        {
+            int temp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = temp;
         }
     }
 }
