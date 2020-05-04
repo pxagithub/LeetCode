@@ -13,15 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamic Programming", "Dyna
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidPermutationsForDISequence", "EffectiveArrangementOfDISequences\ValidPermutationsForDISequence.csproj", "{32C69EFE-B336-4C61-8835-890310982EDC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedianOfTwoSortedArrays", "MedianOfTwoSortedArrays\MedianOfTwoSortedArrays.csproj", "{F684C0FA-8280-4171-ACD0-AB155EF394AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4MedianOfTwoSortedArrays", "MedianOfTwoSortedArrays\4MedianOfTwoSortedArrays.csproj", "{F684C0FA-8280-4171-ACD0-AB155EF394AB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MajorityElement", "MajorityElement\MajorityElement.csproj", "{0D111DD8-C56A-4FDD-839B-CF954089EC7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "169MajorityElement", "MajorityElement\169MajorityElement.csproj", "{0D111DD8-C56A-4FDD-839B-CF954089EC7C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KthLargestElementInAnArray", "KthLargestElementInAnArray\KthLargestElementInAnArray.csproj", "{81BF69B8-7E60-4358-A037-75C911FEDFB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "215KthLargestElementInAnArray", "KthLargestElementInAnArray\215KthLargestElementInAnArray.csproj", "{81BF69B8-7E60-4358-A037-75C911FEDFB6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchA2DMatrixII", "SearchA2DMatrixII\SearchA2DMatrixII.csproj", "{8551BE1F-1B2F-4AC5-AD4C-FFA71392AF28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "240SearchA2DMatrixII", "SearchA2DMatrixII\240SearchA2DMatrixII.csproj", "{8551BE1F-1B2F-4AC5-AD4C-FFA71392AF28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferentWaysToAddParentheses", "DifferentWaysToAddParentheses\DifferentWaysToAddParentheses.csproj", "{7B795A11-AF04-4260-88F4-977109E281C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "241DifferentWaysToAddParentheses", "DifferentWaysToAddParentheses\241DifferentWaysToAddParentheses.csproj", "{7B795A11-AF04-4260-88F4-977109E281C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K Closest Points to Origin", "K Closest Points to Origin\K Closest Points to Origin.csproj", "{F03A3C56-79D8-4A7B-B6A7-ECCCFDDB6752}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,14 @@ Global
 		{7B795A11-AF04-4260-88F4-977109E281C2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7B795A11-AF04-4260-88F4-977109E281C2}.Release|x86.ActiveCfg = Release|Any CPU
 		{7B795A11-AF04-4260-88F4-977109E281C2}.Release|x86.Build.0 = Release|Any CPU
+		{F03A3C56-79D8-4A7B-B6A7-ECCCFDDB6752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03A3C56-79D8-4A7B-B6A7-ECCCFDDB6752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03A3C56-79D8-4A7B-B6A7-ECCCFDDB6752}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F03A3C56-79D8-4A7B-B6A7-ECCCFDDB6752}.Debug|x86.Build.0 = Debug|Any CPU
+		{F03A3C56-79D8-4A7B-B6A7-ECCCFDDB6752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03A3C56-79D8-4A7B-B6A7-ECCCFDDB6752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03A3C56-79D8-4A7B-B6A7-ECCCFDDB6752}.Release|x86.ActiveCfg = Release|Any CPU
+		{F03A3C56-79D8-4A7B-B6A7-ECCCFDDB6752}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +108,7 @@ Global
 		{81BF69B8-7E60-4358-A037-75C911FEDFB6} = {CBB6222F-D57E-40D0-92FF-19D6326322C5}
 		{8551BE1F-1B2F-4AC5-AD4C-FFA71392AF28} = {CBB6222F-D57E-40D0-92FF-19D6326322C5}
 		{7B795A11-AF04-4260-88F4-977109E281C2} = {CBB6222F-D57E-40D0-92FF-19D6326322C5}
+		{F03A3C56-79D8-4A7B-B6A7-ECCCFDDB6752} = {CBB6222F-D57E-40D0-92FF-19D6326322C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE49ACD1-3EB4-48EB-A358-F31E03AF79D2}
