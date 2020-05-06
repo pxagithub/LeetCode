@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "240SearchA2DMatrixII", "Sea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "241DifferentWaysToAddParentheses", "DifferentWaysToAddParentheses\241DifferentWaysToAddParentheses.csproj", "{7B795A11-AF04-4260-88F4-977109E281C2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K Closest Points to Origin", "K Closest Points to Origin\K Closest Points to Origin.csproj", "{F03A3C56-79D8-4A7B-B6A7-ECCCFDDB6752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "973K Closest Points to Origin", "K Closest Points to Origin\973K Closest Points to Origin.csproj", "{F03A3C56-79D8-4A7B-B6A7-ECCCFDDB6752}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
