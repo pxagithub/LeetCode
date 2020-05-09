@@ -34,7 +34,51 @@ namespace _853_Car_Fleet
          */
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int target = 12;
+            int[] position = {10, 8, 0, 5, 3};
+            int[] speed = {2, 4, 1, 1, 3};
+            Console.WriteLine(CarFleet(target,position,speed));
+        }
+
+        public static int CarFleet(int target, int[] position, int[] speed)
+        {
+            int res = 0;
+            int len = position.Length;
+            Car[] cars=new Car[len];
+            for (int i = 0; i < len; i++)
+            {
+                cars[i]=new Car(position[i],(double)(target-position[i])/speed[i]);
+            }
+            Array.Sort(cars,(a,b)=>a.position.CompareTo(b.position));
+
+            int t = len;
+            while (--t>0)
+            {
+                //如果第t辆车到达的比第t-1辆车更快，则第t-1辆车追不上前者，车队数+1；
+                if (cars[t].time<cars[t-1].time)
+                {
+                    res++;
+                }
+                //反之，第t-1辆车被第t辆车阻拦，两车一起到达终点
+                else
+                {
+                    cars[t - 1] = cars[t];
+                }
+            }
+
+            return res + (t == 0 ? 1 : 0);
+        }
+    }
+
+    public class Car
+    {
+        public int position;
+        public double time;
+
+        public Car(int p, double t)
+        {
+            position = p;
+            time = t;
         }
     }
 }
