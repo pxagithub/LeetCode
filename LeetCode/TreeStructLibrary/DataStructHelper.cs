@@ -1,13 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace DataStructLibrary
 {
-    public class TreeNode
+    public class BinaryTreeNode
     {
         public int val;
-        public TreeNode left;
-        public TreeNode right;
-        public TreeNode(int x) { val = x; }
+        public BinaryTreeNode left;
+        public BinaryTreeNode right;
+        public BinaryTreeNode(int x) { val = x; }
     }
 
     public class ListNode
@@ -16,6 +17,18 @@ namespace DataStructLibrary
         public ListNode next;
 
         public ListNode(int x)
+        {
+            val = x;
+        }
+    }
+
+    public class TreeNode
+    {
+        public int val;
+        
+        public List<TreeNode> children;
+
+        public TreeNode(int x)
         {
             val = x;
         }

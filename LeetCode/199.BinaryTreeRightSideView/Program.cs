@@ -26,17 +26,17 @@ namespace _199.BinaryTreeRightSideView
          */
         static void Main(string[] args)
         {
-            TreeNode x = new TreeNode(1)
+            BinaryTreeNode x = new BinaryTreeNode(1)
             {
-                left = new TreeNode(2)
+                left = new BinaryTreeNode(2)
                 {
                     left = null,
-                    right = new TreeNode(5)
+                    right = new BinaryTreeNode(5)
                 },
-                right = new TreeNode(3)
+                right = new BinaryTreeNode(3)
                 {
                     left = null,
-                    right = new TreeNode(4)
+                    right = new BinaryTreeNode(4)
                 }
             };
             IList<int> res1 = DepthFirstRightSideView(x);
@@ -45,19 +45,19 @@ namespace _199.BinaryTreeRightSideView
 
         }
         //深度优先搜索
-        public static IList<int> DepthFirstRightSideView(TreeNode root)
+        public static IList<int> DepthFirstRightSideView(BinaryTreeNode root)
         {
             Dictionary<int ,int> rightmostValueAtDepth=new Dictionary<int, int>();
             int maxDepth = -1;
 
-            Stack<TreeNode> nodeStack=new Stack<TreeNode>();
+            Stack<BinaryTreeNode> nodeStack=new Stack<BinaryTreeNode>();
             Stack<int> depthStack=new Stack<int>();
             nodeStack.Push(root);
             depthStack.Push(0);
 
             while (nodeStack.Count!=0)
             {
-                TreeNode node = nodeStack.Pop();
+                BinaryTreeNode node = nodeStack.Pop();
                 int depth = depthStack.Pop();
 
                 if (node!=null)
@@ -87,19 +87,19 @@ namespace _199.BinaryTreeRightSideView
             return res;
         }
         //广度优先搜索
-        public static IList<int> WidththFirstRightSideView(TreeNode root)
+        public static IList<int> WidththFirstRightSideView(BinaryTreeNode root)
         {
             Dictionary<int, int> rightmostValueAtDepth = new Dictionary<int, int>();
             int maxDepth = -1;
 
-            Queue<TreeNode> nodeQueue=new Queue<TreeNode>();
+            Queue<BinaryTreeNode> nodeQueue=new Queue<BinaryTreeNode>();
             Queue<int> depthQueue=new Queue<int>();
             nodeQueue.Enqueue(root);
             depthQueue.Enqueue(0);
 
             while (nodeQueue.Count!=0)
             {
-                TreeNode node = nodeQueue.Dequeue();
+                BinaryTreeNode node = nodeQueue.Dequeue();
                 int depth = depthQueue.Dequeue();
                 if (node!=null)
                 {
