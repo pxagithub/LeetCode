@@ -59,7 +59,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "449. Serialize and Deserial
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "226. Invert Binary Tree", "226. Invert Binary Tree\226. Invert Binary Tree.csproj", "{5996B608-144A-4C40-AC8F-93223A6EC3C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "863. All Nodes Distance K in Binary Tree", "863. All Nodes Distance K in Binary Tree\863. All Nodes Distance K in Binary Tree.csproj", "{64128CFC-D18B-414C-B795-39F6F3EE7E0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "863. All Nodes Distance K in Binary Tree", "863. All Nodes Distance K in Binary Tree\863. All Nodes Distance K in Binary Tree.csproj", "{64128CFC-D18B-414C-B795-39F6F3EE7E0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "297.Serialize and Deserialize Binary Tree", "297.Serialize and Deserialize Binary Tree\297.Serialize and Deserialize Binary Tree.csproj", "{F26B63CD-9D58-459B-AAFF-8DC92E29F48F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -253,6 +255,14 @@ Global
 		{64128CFC-D18B-414C-B795-39F6F3EE7E0C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{64128CFC-D18B-414C-B795-39F6F3EE7E0C}.Release|x86.ActiveCfg = Release|Any CPU
 		{64128CFC-D18B-414C-B795-39F6F3EE7E0C}.Release|x86.Build.0 = Release|Any CPU
+		{F26B63CD-9D58-459B-AAFF-8DC92E29F48F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26B63CD-9D58-459B-AAFF-8DC92E29F48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26B63CD-9D58-459B-AAFF-8DC92E29F48F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F26B63CD-9D58-459B-AAFF-8DC92E29F48F}.Debug|x86.Build.0 = Debug|Any CPU
+		{F26B63CD-9D58-459B-AAFF-8DC92E29F48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26B63CD-9D58-459B-AAFF-8DC92E29F48F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26B63CD-9D58-459B-AAFF-8DC92E29F48F}.Release|x86.ActiveCfg = Release|Any CPU
+		{F26B63CD-9D58-459B-AAFF-8DC92E29F48F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -281,6 +291,7 @@ Global
 		{ABAD5867-A243-4560-B32A-62D118DAED27} = {2A0F0B5C-06A0-43EC-BD83-DDDD9E78D37D}
 		{5996B608-144A-4C40-AC8F-93223A6EC3C3} = {2A0F0B5C-06A0-43EC-BD83-DDDD9E78D37D}
 		{64128CFC-D18B-414C-B795-39F6F3EE7E0C} = {2A0F0B5C-06A0-43EC-BD83-DDDD9E78D37D}
+		{F26B63CD-9D58-459B-AAFF-8DC92E29F48F} = {2A0F0B5C-06A0-43EC-BD83-DDDD9E78D37D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE49ACD1-3EB4-48EB-A358-F31E03AF79D2}
