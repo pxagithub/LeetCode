@@ -63,7 +63,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "863. All Nodes Distance K i
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "297.Serialize and Deserialize Binary Tree", "297.Serialize and Deserialize Binary Tree\297.Serialize and Deserialize Binary Tree.csproj", "{F26B63CD-9D58-459B-AAFF-8DC92E29F48F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "889. Construct Binary Tree from Preorder and Postorder Travers", "889. Construct Binary Tree from Preorder and Postorder Travers\889. Construct Binary Tree from Preorder and Postorder Travers.csproj", "{74D8CF63-738B-4330-B13E-4E3037C4EE91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "889. Construct Binary Tree from Preorder and Postorder Travers", "889. Construct Binary Tree from Preorder and Postorder Travers\889. Construct Binary Tree from Preorder and Postorder Travers.csproj", "{74D8CF63-738B-4330-B13E-4E3037C4EE91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "543. Diameter of Binary Tree", "543. Diameter of Binary Tree\543. Diameter of Binary Tree.csproj", "{D64C32E1-6337-4DF9-BB7B-5541F081E14E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -273,6 +275,14 @@ Global
 		{74D8CF63-738B-4330-B13E-4E3037C4EE91}.Release|Any CPU.Build.0 = Release|Any CPU
 		{74D8CF63-738B-4330-B13E-4E3037C4EE91}.Release|x86.ActiveCfg = Release|Any CPU
 		{74D8CF63-738B-4330-B13E-4E3037C4EE91}.Release|x86.Build.0 = Release|Any CPU
+		{D64C32E1-6337-4DF9-BB7B-5541F081E14E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64C32E1-6337-4DF9-BB7B-5541F081E14E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64C32E1-6337-4DF9-BB7B-5541F081E14E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D64C32E1-6337-4DF9-BB7B-5541F081E14E}.Debug|x86.Build.0 = Debug|Any CPU
+		{D64C32E1-6337-4DF9-BB7B-5541F081E14E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64C32E1-6337-4DF9-BB7B-5541F081E14E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D64C32E1-6337-4DF9-BB7B-5541F081E14E}.Release|x86.ActiveCfg = Release|Any CPU
+		{D64C32E1-6337-4DF9-BB7B-5541F081E14E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -303,6 +313,7 @@ Global
 		{64128CFC-D18B-414C-B795-39F6F3EE7E0C} = {2A0F0B5C-06A0-43EC-BD83-DDDD9E78D37D}
 		{F26B63CD-9D58-459B-AAFF-8DC92E29F48F} = {2A0F0B5C-06A0-43EC-BD83-DDDD9E78D37D}
 		{74D8CF63-738B-4330-B13E-4E3037C4EE91} = {2A0F0B5C-06A0-43EC-BD83-DDDD9E78D37D}
+		{D64C32E1-6337-4DF9-BB7B-5541F081E14E} = {2A0F0B5C-06A0-43EC-BD83-DDDD9E78D37D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE49ACD1-3EB4-48EB-A358-F31E03AF79D2}
