@@ -45,7 +45,6 @@ namespace _297.Serialize_and_Deserialize_Binary_Tree
                     left = new TreeNode(6),
                     right = new TreeNode(7)
                 }
-
             };
             TreeNode root1 = new TreeNode(2)
             {
