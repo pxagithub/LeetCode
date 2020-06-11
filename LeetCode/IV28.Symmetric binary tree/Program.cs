@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design.Serialization;
+using System.Runtime.InteropServices.ComTypes;
 using DataStructLibrary;
 
 namespace IV28.Symmetric_binary_tree
@@ -40,8 +41,9 @@ namespace IV28.Symmetric_binary_tree
            / \
           2   2
          / \ / \
-        3  4 4  3*/
-            TreeNode x=new TreeNode(1)
+        3  4 4  3
+           */
+            TreeNode x =new TreeNode(1)
             {
                 left = new TreeNode(2)
                 {
@@ -62,7 +64,7 @@ namespace IV28.Symmetric_binary_tree
              / \
             2   2
              \   \
-             3    3
+             2    2
               */
             TreeNode y = new TreeNode(1)
             {
@@ -75,27 +77,47 @@ namespace IV28.Symmetric_binary_tree
                     right = new TreeNode(2)
                 }
             };
-
+            TreeNode z=new TreeNode(1)
+            {
+                left = new TreeNode(0)
+            };
             
 
-            Console.WriteLine($"{IsSymmetric(x)}, {IsSymmetric(y)}");//true false
+            Console.WriteLine(IsSymmetric(x));//true 
+            Console.WriteLine(IsSymmetric(y));//false
+            Console.WriteLine(IsSymmetric(z));//false
 
         }
         private static List<string> nodeVal=new List<string>();
         public static bool IsSymmetric(TreeNode root)
         {
-            nodeVal.Clear();
-            InOrderTraversal(root);
-            if (nodeVal.Count == 1) return true;
-            if (nodeVal.Count % 2 == 0) return false;
-            int i = 0, j = nodeVal.Count - 1;
-            while (i!=j)
+            //中序遍历法无法通过特殊用例[5,4,1,null,1,null,4,2,null,2,null]
+            //nodeVal.Clear();
+            //InOrderTraversal(root);
+            //if (nodeVal.Count == 1) return true;
+            //if (nodeVal.Count % 2 == 0) return false;
+            //int i = 0, j = nodeVal.Count - 1;
+            //while (i!=j)
+            //{
+            //    if (nodeVal[i] != nodeVal[j]) return false;
+            //    i++;
+            //    j--;
+            //}
+            //return true;
+            //若加入null值后的前序遍历与后序遍历正好相反，则该树是镜像的
+            preOrder.Clear();
+            postOrder.Clear();
+            PreOrderTraversal(root);
+            PostOrderTraversal(root);
+            if (preOrder.Count == 1) return true;
+            if (preOrder.Count % 2 == 0) return false;
+            int i = 0, j = postOrder.Count - 1;
+            while (j>0)
             {
-                if (nodeVal[i] != nodeVal[j]) return false;
+                if (preOrder[i] != postOrder[j]) return false;
                 i++;
                 j--;
             }
-
             return true;
         }
 
@@ -106,11 +128,50 @@ namespace IV28.Symmetric_binary_tree
                 nodeVal.Add("null");
                 return;
             }
-            if (root.left==null && root.right==null) return;
-            
+            if (root.left==null && root.right==null)
+            {
+                nodeVal.Add(root.val.ToString());
+                return;
+            }
+
             InOrderTraversal(root.left);
             nodeVal.Add(root.val.ToString());
             InOrderTraversal(root.right);
         }
+        private static List<string> preOrder=new List<string>();
+        public static void PreOrderTraversal(TreeNode root)
+        {
+            if (root == null)
+            {
+                preOrder.Add("null");
+                return;
+            }
+            if (root.left == null && root.right == null)
+            {
+                preOrder.Add(root.val.ToString());
+                return;
+            }
+            preOrder.Add(root.val.ToString());
+            PreOrderTraversal(root.left);
+            PreOrderTraversal(root.right);
+        }
+        private static List<string> postOrder=new List<string>();
+        public static void PostOrderTraversal(TreeNode root)
+        {
+            if (root == null)
+            {
+                postOrder.Add("null");
+                return;
+            }
+            if (root.left == null && root.right == null)
+            {
+                postOrder.Add(root.val.ToString());
+                return;
+            }
+            PostOrderTraversal(root.left);
+            PostOrderTraversal(root.right);
+            postOrder.Add(root.val.ToString());
+        }
+        
     }
 }
