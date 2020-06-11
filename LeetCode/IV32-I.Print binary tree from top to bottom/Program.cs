@@ -58,7 +58,7 @@ namespace IV32_I.Print_binary_tree_from_top_to_bottom
                     nodeQueue.Enqueue(temp.right);
                 val.Add(temp.val);
             }
-
+            
             return val.ToArray();
         }
     }

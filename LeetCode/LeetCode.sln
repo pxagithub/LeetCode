@@ -79,6 +79,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IV28.Symmetric binary tree"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IV32-I.Print binary tree from top to bottom", "IV32-I.Print binary tree from top to bottom\IV32-I.Print binary tree from top to bottom.csproj", "{81FCDF8B-C3D9-4FAC-8F83-AB716B55590D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IV32-III.Print binary tree from top to bottom", "IV32-III.Print binary tree from top to bottom\IV32-III.Print binary tree from top to bottom.csproj", "{DE8DDA9A-21CA-4F99-AB55-DB058279363B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -343,6 +345,14 @@ Global
 		{81FCDF8B-C3D9-4FAC-8F83-AB716B55590D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{81FCDF8B-C3D9-4FAC-8F83-AB716B55590D}.Release|x86.ActiveCfg = Release|Any CPU
 		{81FCDF8B-C3D9-4FAC-8F83-AB716B55590D}.Release|x86.Build.0 = Release|Any CPU
+		{DE8DDA9A-21CA-4F99-AB55-DB058279363B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8DDA9A-21CA-4F99-AB55-DB058279363B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8DDA9A-21CA-4F99-AB55-DB058279363B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DE8DDA9A-21CA-4F99-AB55-DB058279363B}.Debug|x86.Build.0 = Debug|Any CPU
+		{DE8DDA9A-21CA-4F99-AB55-DB058279363B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8DDA9A-21CA-4F99-AB55-DB058279363B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8DDA9A-21CA-4F99-AB55-DB058279363B}.Release|x86.ActiveCfg = Release|Any CPU
+		{DE8DDA9A-21CA-4F99-AB55-DB058279363B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -380,6 +390,7 @@ Global
 		{40ACCF95-F0FA-4E15-B48D-406DECE18E60} = {2A0F0B5C-06A0-43EC-BD83-DDDD9E78D37D}
 		{50E6FCD1-9663-4000-A696-E4CA6D02BDAA} = {2A0F0B5C-06A0-43EC-BD83-DDDD9E78D37D}
 		{81FCDF8B-C3D9-4FAC-8F83-AB716B55590D} = {2A0F0B5C-06A0-43EC-BD83-DDDD9E78D37D}
+		{DE8DDA9A-21CA-4F99-AB55-DB058279363B} = {2A0F0B5C-06A0-43EC-BD83-DDDD9E78D37D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE49ACD1-3EB4-48EB-A358-F31E03AF79D2}
