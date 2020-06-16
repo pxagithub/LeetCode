@@ -85,9 +85,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IV27.Mirror of the binary t
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IV55-I.The depth of the binary tree", "IV55-I.The depth of the binary tree\IV55-I.The depth of the binary tree.csproj", "{DC50CCD9-3B1F-46F1-B357-E2400BFD95A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IV68-II.The nearest public ancestor of the binary tree", "IV68-II.The nearest public ancestor of the binary tree\IV68-II.The nearest public ancestor of the binary tree.csproj", "{F0E42A12-222A-423C-A9E0-AD83A469E036}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IV68-II.The nearest public ancestor of the binary tree", "IV68-II.The nearest public ancestor of the binary tree\IV68-II.The nearest public ancestor of the binary tree.csproj", "{F0E42A12-222A-423C-A9E0-AD83A469E036}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IV55-II.Balance binary tree", "IV55-II.Balance binary tree\IV55-II.Balance binary tree.csproj", "{FBDD31BA-20E2-4B3B-B3EA-712B95EB9480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IV34.Binary tree path with a certain value", "IV34.Binary tree path with a certain value\IV34.Binary tree path with a certain value.csproj", "{3EA70095-1D1B-4EE4-8356-20C04B9DB3BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -393,6 +395,14 @@ Global
 		{FBDD31BA-20E2-4B3B-B3EA-712B95EB9480}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FBDD31BA-20E2-4B3B-B3EA-712B95EB9480}.Release|x86.ActiveCfg = Release|Any CPU
 		{FBDD31BA-20E2-4B3B-B3EA-712B95EB9480}.Release|x86.Build.0 = Release|Any CPU
+		{3EA70095-1D1B-4EE4-8356-20C04B9DB3BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA70095-1D1B-4EE4-8356-20C04B9DB3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA70095-1D1B-4EE4-8356-20C04B9DB3BC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3EA70095-1D1B-4EE4-8356-20C04B9DB3BC}.Debug|x86.Build.0 = Debug|Any CPU
+		{3EA70095-1D1B-4EE4-8356-20C04B9DB3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA70095-1D1B-4EE4-8356-20C04B9DB3BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA70095-1D1B-4EE4-8356-20C04B9DB3BC}.Release|x86.ActiveCfg = Release|Any CPU
+		{3EA70095-1D1B-4EE4-8356-20C04B9DB3BC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -435,6 +445,7 @@ Global
 		{DC50CCD9-3B1F-46F1-B357-E2400BFD95A6} = {2A0F0B5C-06A0-43EC-BD83-DDDD9E78D37D}
 		{F0E42A12-222A-423C-A9E0-AD83A469E036} = {2A0F0B5C-06A0-43EC-BD83-DDDD9E78D37D}
 		{FBDD31BA-20E2-4B3B-B3EA-712B95EB9480} = {2A0F0B5C-06A0-43EC-BD83-DDDD9E78D37D}
+		{3EA70095-1D1B-4EE4-8356-20C04B9DB3BC} = {2A0F0B5C-06A0-43EC-BD83-DDDD9E78D37D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE49ACD1-3EB4-48EB-A358-F31E03AF79D2}
