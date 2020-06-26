@@ -38,7 +38,8 @@ namespace IV14_1.Cut_rope
 
             return res;
         }
-        //动态规划 dp[i]=max(dp[i-j]*j)
+        //动态规划 dp[i]=max(dp[i-j]*j) 
+        //使用BinIneger解决第二题
         public static int CuttingRopeDP(int n)
         {
             if (n == 2)
