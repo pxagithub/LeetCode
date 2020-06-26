@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Numerics;
 
 namespace IV14_1.Cut_rope
 {
@@ -19,7 +20,7 @@ namespace IV14_1.Cut_rope
            2 <= n <= 58*/
         static void Main(string[] args)
         {
-            Console.WriteLine(CuttingRopeDP(2));
+            Console.WriteLine(CuttingRopeDP(120));
             Console.WriteLine(CuttingRopeDP(10));
         }
         //数学推理
@@ -42,18 +43,23 @@ namespace IV14_1.Cut_rope
         {
             if (n == 2)
                 return 1;
-            int[] dp=new int[n+1];
+            BigInteger[] dp=new BigInteger[n+1];
             dp[2] = 1;
             for (int i = 3; i <= n; i++)
             {
-                int q = int.MinValue;
+                BigInteger q = int.MinValue;
                 for (int j = 1; j < i; j++)
                 {
-                    q = Math.Max(q, Math.Max(dp[i - j] * j,(i-j)*j));
+                    q = Max(q, Max(dp[i - j] * j,(i-j)*j));
                 }
                 dp[i] = q;
             }
-            return dp[n];
+            BigInteger res = dp[n] % 1000000007;
+            return (int)res;
+        }
+        public static BigInteger Max(BigInteger x, BigInteger y)
+        {
+            return x > y ? x : y;
         }
 
     }
