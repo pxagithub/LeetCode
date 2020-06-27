@@ -99,7 +99,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IV42.Maximum sum of consecu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IV12.Paths in the matrix", "IV12.Paths in the matrix\IV12.Paths in the matrix.csproj", "{BF96C118-CBB2-4134-B1B0-83D3A4EDEE65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IV14-1.Cut rope", "IV14-1.Cut rope\IV14-1.Cut rope.csproj", "{AF1B3032-85E0-40C6-8AD8-9C2078FF671B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IV14-1.Cut rope", "IV14-1.Cut rope\IV14-1.Cut rope.csproj", "{AF1B3032-85E0-40C6-8AD8-9C2078FF671B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IV47.The max value of gifts", "IV47.The max value of gifts\IV47.The max value of gifts.csproj", "{8F088F24-3B1A-4B2A-9EDF-6F34D14CED92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -453,6 +455,14 @@ Global
 		{AF1B3032-85E0-40C6-8AD8-9C2078FF671B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AF1B3032-85E0-40C6-8AD8-9C2078FF671B}.Release|x86.ActiveCfg = Release|Any CPU
 		{AF1B3032-85E0-40C6-8AD8-9C2078FF671B}.Release|x86.Build.0 = Release|Any CPU
+		{8F088F24-3B1A-4B2A-9EDF-6F34D14CED92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F088F24-3B1A-4B2A-9EDF-6F34D14CED92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F088F24-3B1A-4B2A-9EDF-6F34D14CED92}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8F088F24-3B1A-4B2A-9EDF-6F34D14CED92}.Debug|x86.Build.0 = Debug|Any CPU
+		{8F088F24-3B1A-4B2A-9EDF-6F34D14CED92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F088F24-3B1A-4B2A-9EDF-6F34D14CED92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F088F24-3B1A-4B2A-9EDF-6F34D14CED92}.Release|x86.ActiveCfg = Release|Any CPU
+		{8F088F24-3B1A-4B2A-9EDF-6F34D14CED92}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -501,6 +511,7 @@ Global
 		{66181C33-26E4-4A26-BC27-6603751F5B6A} = {3938231A-58EE-4039-8862-BD56A6B8E9A3}
 		{BF96C118-CBB2-4134-B1B0-83D3A4EDEE65} = {3938231A-58EE-4039-8862-BD56A6B8E9A3}
 		{AF1B3032-85E0-40C6-8AD8-9C2078FF671B} = {3938231A-58EE-4039-8862-BD56A6B8E9A3}
+		{8F088F24-3B1A-4B2A-9EDF-6F34D14CED92} = {3938231A-58EE-4039-8862-BD56A6B8E9A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE49ACD1-3EB4-48EB-A358-F31E03AF79D2}
