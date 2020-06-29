@@ -103,7 +103,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IV14-1.Cut rope", "IV14-1.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IV47.The max value of gifts", "IV47.The max value of gifts\IV47.The max value of gifts.csproj", "{8F088F24-3B1A-4B2A-9EDF-6F34D14CED92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IV62.Stock maximum profit", "IV62.Stock maximum profit\IV62.Stock maximum profit.csproj", "{C1898A1D-D5AF-424A-8069-5195495B5E6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IV62.Stock maximum profit", "IV62.Stock maximum profit\IV62.Stock maximum profit.csproj", "{C1898A1D-D5AF-424A-8069-5195495B5E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IV19.Regular expression matching", "IV19.Regular expression matching\IV19.Regular expression matching.csproj", "{FAD6F6F1-98BB-4404-9FFA-59B70FFD16E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -473,6 +475,14 @@ Global
 		{C1898A1D-D5AF-424A-8069-5195495B5E6F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C1898A1D-D5AF-424A-8069-5195495B5E6F}.Release|x86.ActiveCfg = Release|Any CPU
 		{C1898A1D-D5AF-424A-8069-5195495B5E6F}.Release|x86.Build.0 = Release|Any CPU
+		{FAD6F6F1-98BB-4404-9FFA-59B70FFD16E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD6F6F1-98BB-4404-9FFA-59B70FFD16E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD6F6F1-98BB-4404-9FFA-59B70FFD16E3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FAD6F6F1-98BB-4404-9FFA-59B70FFD16E3}.Debug|x86.Build.0 = Debug|Any CPU
+		{FAD6F6F1-98BB-4404-9FFA-59B70FFD16E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD6F6F1-98BB-4404-9FFA-59B70FFD16E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD6F6F1-98BB-4404-9FFA-59B70FFD16E3}.Release|x86.ActiveCfg = Release|Any CPU
+		{FAD6F6F1-98BB-4404-9FFA-59B70FFD16E3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -523,6 +533,7 @@ Global
 		{AF1B3032-85E0-40C6-8AD8-9C2078FF671B} = {3938231A-58EE-4039-8862-BD56A6B8E9A3}
 		{8F088F24-3B1A-4B2A-9EDF-6F34D14CED92} = {3938231A-58EE-4039-8862-BD56A6B8E9A3}
 		{C1898A1D-D5AF-424A-8069-5195495B5E6F} = {3938231A-58EE-4039-8862-BD56A6B8E9A3}
+		{FAD6F6F1-98BB-4404-9FFA-59B70FFD16E3} = {3938231A-58EE-4039-8862-BD56A6B8E9A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE49ACD1-3EB4-48EB-A358-F31E03AF79D2}
