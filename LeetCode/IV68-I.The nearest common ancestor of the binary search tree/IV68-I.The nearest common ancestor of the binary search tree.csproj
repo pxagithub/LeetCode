@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>IV68_I.The_nearest_common_ancestor_of_the_binary_search_tree</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DataStructLibrary">
+      <HintPath>..\TreeStructLibrary\bin\Debug\netcoreapp3.1\DataStructLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
