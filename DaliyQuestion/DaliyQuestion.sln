@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2020-7", "2020-7", "{E94946
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "112.PathSum", "112.PathSum\112.PathSum.csproj", "{4B1DF897-6A54-47FF-BCE0-11E34136273F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IV16.11.Diving Board", "IV16.11.Diving Board\IV16.11.Diving Board.csproj", "{B04F6DEF-1C5F-4034-B5DC-5AECFBB6E547}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IV16.11.Diving Board", "IV16.11.Diving Board\IV16.11.Diving Board.csproj", "{B04F6DEF-1C5F-4034-B5DC-5AECFBB6E547}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IV17.13.Re-Space", "IV17.13.Re-Space\IV17.13.Re-Space.csproj", "{3745CEBA-1DF4-493E-B530-042D7ACA559F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{B04F6DEF-1C5F-4034-B5DC-5AECFBB6E547}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B04F6DEF-1C5F-4034-B5DC-5AECFBB6E547}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B04F6DEF-1C5F-4034-B5DC-5AECFBB6E547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3745CEBA-1DF4-493E-B530-042D7ACA559F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3745CEBA-1DF4-493E-B530-042D7ACA559F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3745CEBA-1DF4-493E-B530-042D7ACA559F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3745CEBA-1DF4-493E-B530-042D7ACA559F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4B1DF897-6A54-47FF-BCE0-11E34136273F} = {E949464A-CB7C-4B90-B965-14A8E2B62181}
 		{B04F6DEF-1C5F-4034-B5DC-5AECFBB6E547} = {E949464A-CB7C-4B90-B965-14A8E2B62181}
+		{3745CEBA-1DF4-493E-B530-042D7ACA559F} = {E949464A-CB7C-4B90-B965-14A8E2B62181}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EAEA1DDA-154E-45D5-BED2-C59D0FEB0A2C}
