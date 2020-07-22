@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "167.Two Sum-II, Input Array
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "95.Unique binary search tree-II", "95.Unique binary search tree-II\95.Unique binary search tree-II.csproj", "{EA1D1CE3-6668-44E2-8C8B-14B3125B857B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STO11.Min number in rotated array", "STO11.Min number in rotated array\STO11.Min number in rotated array.csproj", "{C11BBCFF-2887-4EDA-8F68-718462DF5841}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{EA1D1CE3-6668-44E2-8C8B-14B3125B857B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA1D1CE3-6668-44E2-8C8B-14B3125B857B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA1D1CE3-6668-44E2-8C8B-14B3125B857B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C11BBCFF-2887-4EDA-8F68-718462DF5841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C11BBCFF-2887-4EDA-8F68-718462DF5841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C11BBCFF-2887-4EDA-8F68-718462DF5841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C11BBCFF-2887-4EDA-8F68-718462DF5841}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +106,7 @@ Global
 		{49C881E1-147B-4151-BD4E-9C26570889E8} = {E949464A-CB7C-4B90-B965-14A8E2B62181}
 		{C8D07219-D3A9-4DE3-BBED-8982C842E7E1} = {E949464A-CB7C-4B90-B965-14A8E2B62181}
 		{EA1D1CE3-6668-44E2-8C8B-14B3125B857B} = {E949464A-CB7C-4B90-B965-14A8E2B62181}
+		{C11BBCFF-2887-4EDA-8F68-718462DF5841} = {E949464A-CB7C-4B90-B965-14A8E2B62181}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EAEA1DDA-154E-45D5-BED2-C59D0FEB0A2C}
