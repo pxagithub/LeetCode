@@ -18,8 +18,8 @@ namespace _392._Is_Subsequence
            如果有大量输入的 S，称作S1, S2, ... , Sk 其中 k >= 10亿，你需要依次检查它们是否为 T 的子序列。在这种情况下，你会怎样改变代码？*/
         static void Main(string[] args)
         {
-            Console.WriteLine(IsSubsequence("abc", "ahbgdc"));
-            Console.WriteLine(IsSubsequence("axc", "ahbgdc"));
+            Console.WriteLine(IsSubsequenceByDP("abc", "ahbgdc"));
+            Console.WriteLine(IsSubsequenceByDP("axc", "ahbgdc"));
 
         }
         public static bool IsSubsequence(string s, string t)
@@ -48,6 +48,40 @@ namespace _392._Is_Subsequence
             }
 
             return false;
+        }
+        /// <summary>
+        /// 动态规划
+        /// </summary>
+        /// <param name="s"></param>
+        /// <param name="t"></param>
+        /// <returns></returns>
+        public static bool IsSubsequenceByDP(string s, string t)
+        {
+            int m = s.Length, n = t.Length;
+
+            int[,] dp = new int[n + 1, 26];
+            for (int i = 0; i < 26; i++)
+            {
+                dp[n, i] = n;
+            }
+
+            for (int i = n-1; i >= 0; i--)
+            {
+                for (int j = 0; j < 26; j++)
+                {
+                    dp[i, j] = t[i] == j + 'a' ? i : dp[i + 1, j];
+                }
+            }
+
+            int add = 0;
+            for (int i = 0; i < m; i++)
+            {
+                if (dp[add, s[i] - 'a'] == n)
+                    return false;
+                add = dp[add, s[i] - 'a'] + 1;
+            }
+
+            return true;
         }
     }
 }
