@@ -35,11 +35,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "64.Minimum path sum", "64.M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1025.Divisor Game", "1025.Divisor Game\1025.Divisor Game.csproj", "{676DA9C1-2066-42C0-B944-8522C9CE3C65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "410.Split array largest sum", "410.Split array largest sum\410.Split array largest sum.csproj", "{9B4CE64B-742C-4BAF-A830-4BD1F2D6738E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "410.Split array largest sum", "410.Split array largest sum\410.Split array largest sum.csproj", "{9B4CE64B-742C-4BAF-A830-4BD1F2D6738E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "329. Longest Increasing Path in a Matrix", "329. Longest Increasing Path in a Matrix\329. Longest Increasing Path in a Matrix.csproj", "{B10DDEB3-2A76-46D0-B75A-AD21F27A5890}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "329. Longest Increasing Path in a Matrix", "329. Longest Increasing Path in a Matrix\329. Longest Increasing Path in a Matrix.csproj", "{B10DDEB3-2A76-46D0-B75A-AD21F27A5890}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "392. Is Subsequence", "392. Is Subsequence\392. Is Subsequence.csproj", "{4CDBF7AC-5220-4B19-A90F-FF5C7B08093D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "392. Is Subsequence", "392. Is Subsequence\392. Is Subsequence.csproj", "{4CDBF7AC-5220-4B19-A90F-FF5C7B08093D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "104. Maximum Depth of Binary Tree", "104. Maximum Depth of Binary Tree\104. Maximum Depth of Binary Tree.csproj", "{779BF72E-0B48-4A8D-BC50-C5AD08643247}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +269,18 @@ Global
 		{4CDBF7AC-5220-4B19-A90F-FF5C7B08093D}.Release|x64.Build.0 = Release|Any CPU
 		{4CDBF7AC-5220-4B19-A90F-FF5C7B08093D}.Release|x86.ActiveCfg = Release|Any CPU
 		{4CDBF7AC-5220-4B19-A90F-FF5C7B08093D}.Release|x86.Build.0 = Release|Any CPU
+		{779BF72E-0B48-4A8D-BC50-C5AD08643247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{779BF72E-0B48-4A8D-BC50-C5AD08643247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{779BF72E-0B48-4A8D-BC50-C5AD08643247}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{779BF72E-0B48-4A8D-BC50-C5AD08643247}.Debug|x64.Build.0 = Debug|Any CPU
+		{779BF72E-0B48-4A8D-BC50-C5AD08643247}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{779BF72E-0B48-4A8D-BC50-C5AD08643247}.Debug|x86.Build.0 = Debug|Any CPU
+		{779BF72E-0B48-4A8D-BC50-C5AD08643247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{779BF72E-0B48-4A8D-BC50-C5AD08643247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{779BF72E-0B48-4A8D-BC50-C5AD08643247}.Release|x64.ActiveCfg = Release|Any CPU
+		{779BF72E-0B48-4A8D-BC50-C5AD08643247}.Release|x64.Build.0 = Release|Any CPU
+		{779BF72E-0B48-4A8D-BC50-C5AD08643247}.Release|x86.ActiveCfg = Release|Any CPU
+		{779BF72E-0B48-4A8D-BC50-C5AD08643247}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -290,6 +304,7 @@ Global
 		{9B4CE64B-742C-4BAF-A830-4BD1F2D6738E} = {E949464A-CB7C-4B90-B965-14A8E2B62181}
 		{B10DDEB3-2A76-46D0-B75A-AD21F27A5890} = {E949464A-CB7C-4B90-B965-14A8E2B62181}
 		{4CDBF7AC-5220-4B19-A90F-FF5C7B08093D} = {E949464A-CB7C-4B90-B965-14A8E2B62181}
+		{779BF72E-0B48-4A8D-BC50-C5AD08643247} = {E949464A-CB7C-4B90-B965-14A8E2B62181}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EAEA1DDA-154E-45D5-BED2-C59D0FEB0A2C}
