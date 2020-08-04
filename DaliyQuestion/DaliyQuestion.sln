@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2020-8", "2020-8", "{912F24F0-E5EC-4E58-9BE7-F6818F3ABF05}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "632.Minimuml interval", "632.Minimuml interval\632.Minimuml interval.csproj", "{67706314-7714-4B6E-B9BB-F324B1DDC851}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01--632.Minimuml interval", "632.Minimuml interval\01--632.Minimuml interval.csproj", "{67706314-7714-4B6E-B9BB-F324B1DDC851}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "114. Flatten Binary Tree to Linked List", "114. Flatten Binary Tree to Linked List\114. Flatten Binary Tree to Linked List.csproj", "{024A2657-A367-4256-B0DD-1FD43DE12347}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02--114. Flatten Binary Tree to Linked List", "114. Flatten Binary Tree to Linked List\02--114. Flatten Binary Tree to Linked List.csproj", "{024A2657-A367-4256-B0DD-1FD43DE12347}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "415. Add Strings", "415. Add Strings\415. Add Strings.csproj", "{027C9755-979A-4A0C-9C93-A71BA3075B7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03--415. Add Strings", "415. Add Strings\03--415. Add Strings.csproj", "{027C9755-979A-4A0C-9C93-A71BA3075B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04--207. Course Schedule", "04--207. Course Schedule\04--207. Course Schedule.csproj", "{510FE354-2465-4042-9F83-92310D827C65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{027C9755-979A-4A0C-9C93-A71BA3075B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{027C9755-979A-4A0C-9C93-A71BA3075B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{027C9755-979A-4A0C-9C93-A71BA3075B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{510FE354-2465-4042-9F83-92310D827C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{510FE354-2465-4042-9F83-92310D827C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{510FE354-2465-4042-9F83-92310D827C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{510FE354-2465-4042-9F83-92310D827C65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{67706314-7714-4B6E-B9BB-F324B1DDC851} = {912F24F0-E5EC-4E58-9BE7-F6818F3ABF05}
 		{024A2657-A367-4256-B0DD-1FD43DE12347} = {912F24F0-E5EC-4E58-9BE7-F6818F3ABF05}
 		{027C9755-979A-4A0C-9C93-A71BA3075B7D} = {912F24F0-E5EC-4E58-9BE7-F6818F3ABF05}
+		{510FE354-2465-4042-9F83-92310D827C65} = {912F24F0-E5EC-4E58-9BE7-F6818F3ABF05}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EAEA1DDA-154E-45D5-BED2-C59D0FEB0A2C}
