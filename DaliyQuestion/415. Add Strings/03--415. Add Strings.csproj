@@ -1,9 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>_415._Add_Strings</RootNamespace>
+    <RootNamespace>03--415._Add_Strings</RootNamespace>
   </PropertyGroup>
 
 </Project>

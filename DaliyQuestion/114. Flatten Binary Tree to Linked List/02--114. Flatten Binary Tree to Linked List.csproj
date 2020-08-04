@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>_114._Flatten_Binary_Tree_to_Linked_List</RootNamespace>
+    <RootNamespace>_02--_114._Flatten_Binary_Tree_to_Linked_List</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
