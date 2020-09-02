@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_02__STO20.A_string_representing_a_numeric_value</RootNamespace>
+  </PropertyGroup>
+
+</Project>
