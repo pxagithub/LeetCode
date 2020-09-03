@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace _02__STO20.A_string_representing_a_numeric_value
 {
