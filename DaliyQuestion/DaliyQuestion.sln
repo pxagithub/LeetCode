@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04--257.Binary Tree Paths",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05--60. Permutation Sequence", "05--60. Permutation Sequence\05--60. Permutation Sequence.csproj", "{8EC2AC49-2A1B-4DE8-A823-E5212D6D1D7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06--107. Binary Tree Level Order Traversal II", "06--107. Binary Tree Level Order Traversal II\06--107. Binary Tree Level Order Traversal II.csproj", "{2797389E-ECAE-4254-824D-D67520F1B8BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06--107. Binary Tree Level Order Traversal II", "06--107. Binary Tree Level Order Traversal II\06--107. Binary Tree Level Order Traversal II.csproj", "{2797389E-ECAE-4254-824D-D67520F1B8BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07--347. Top K Frequent Elements", "07--347. Top K Frequent Elements\07--347. Top K Frequent Elements.csproj", "{C700D8B4-7768-48B3-BB7F-EFB849C6F558}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,18 @@ Global
 		{2797389E-ECAE-4254-824D-D67520F1B8BD}.Release|x64.Build.0 = Release|Any CPU
 		{2797389E-ECAE-4254-824D-D67520F1B8BD}.Release|x86.ActiveCfg = Release|Any CPU
 		{2797389E-ECAE-4254-824D-D67520F1B8BD}.Release|x86.Build.0 = Release|Any CPU
+		{C700D8B4-7768-48B3-BB7F-EFB849C6F558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C700D8B4-7768-48B3-BB7F-EFB849C6F558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C700D8B4-7768-48B3-BB7F-EFB849C6F558}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C700D8B4-7768-48B3-BB7F-EFB849C6F558}.Debug|x64.Build.0 = Debug|Any CPU
+		{C700D8B4-7768-48B3-BB7F-EFB849C6F558}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C700D8B4-7768-48B3-BB7F-EFB849C6F558}.Debug|x86.Build.0 = Debug|Any CPU
+		{C700D8B4-7768-48B3-BB7F-EFB849C6F558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C700D8B4-7768-48B3-BB7F-EFB849C6F558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C700D8B4-7768-48B3-BB7F-EFB849C6F558}.Release|x64.ActiveCfg = Release|Any CPU
+		{C700D8B4-7768-48B3-BB7F-EFB849C6F558}.Release|x64.Build.0 = Release|Any CPU
+		{C700D8B4-7768-48B3-BB7F-EFB849C6F558}.Release|x86.ActiveCfg = Release|Any CPU
+		{C700D8B4-7768-48B3-BB7F-EFB849C6F558}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,6 +124,7 @@ Global
 		{ED4D0774-A88F-4104-B950-24D26FB654C2} = {E0A30A9B-DBC9-4926-BFE2-59C578D1087D}
 		{8EC2AC49-2A1B-4DE8-A823-E5212D6D1D7A} = {E0A30A9B-DBC9-4926-BFE2-59C578D1087D}
 		{2797389E-ECAE-4254-824D-D67520F1B8BD} = {E0A30A9B-DBC9-4926-BFE2-59C578D1087D}
+		{C700D8B4-7768-48B3-BB7F-EFB849C6F558} = {E0A30A9B-DBC9-4926-BFE2-59C578D1087D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EAEA1DDA-154E-45D5-BED2-C59D0FEB0A2C}
