@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_23__617._Merge_Two_Binary_Trees</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DataStructLibrary">
+      <HintPath>..\..\LeetCode\TreeStructLibrary\bin\Debug\netcoreapp3.1\DataStructLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
