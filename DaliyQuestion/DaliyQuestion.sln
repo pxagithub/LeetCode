@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21--538. Convert BST to Gre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22--968. Binary Tree Cameras", "22--968. Binary Tree Cameras\22--968. Binary Tree Cameras.csproj", "{F34EB273-A4A6-4836-AD62-34AE562AA92F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23--617. Merge Two Binary Trees", "23--617. Merge Two Binary Trees\23--617. Merge Two Binary Trees.csproj", "{12ECAFBD-4BBE-471D-BE84-18143159819F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23--617. Merge Two Binary Trees", "23--617. Merge Two Binary Trees\23--617. Merge Two Binary Trees.csproj", "{12ECAFBD-4BBE-471D-BE84-18143159819F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24--501. Find Mode in Binary Search Tree", "24--501. Find Mode in Binary Search Tree\24--501. Find Mode in Binary Search Tree.csproj", "{F355C3E4-B8E4-4D21-B24F-2A502D9F17A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -323,6 +325,18 @@ Global
 		{12ECAFBD-4BBE-471D-BE84-18143159819F}.Release|x64.Build.0 = Release|Any CPU
 		{12ECAFBD-4BBE-471D-BE84-18143159819F}.Release|x86.ActiveCfg = Release|Any CPU
 		{12ECAFBD-4BBE-471D-BE84-18143159819F}.Release|x86.Build.0 = Release|Any CPU
+		{F355C3E4-B8E4-4D21-B24F-2A502D9F17A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F355C3E4-B8E4-4D21-B24F-2A502D9F17A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F355C3E4-B8E4-4D21-B24F-2A502D9F17A7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F355C3E4-B8E4-4D21-B24F-2A502D9F17A7}.Debug|x64.Build.0 = Debug|Any CPU
+		{F355C3E4-B8E4-4D21-B24F-2A502D9F17A7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F355C3E4-B8E4-4D21-B24F-2A502D9F17A7}.Debug|x86.Build.0 = Debug|Any CPU
+		{F355C3E4-B8E4-4D21-B24F-2A502D9F17A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F355C3E4-B8E4-4D21-B24F-2A502D9F17A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F355C3E4-B8E4-4D21-B24F-2A502D9F17A7}.Release|x64.ActiveCfg = Release|Any CPU
+		{F355C3E4-B8E4-4D21-B24F-2A502D9F17A7}.Release|x64.Build.0 = Release|Any CPU
+		{F355C3E4-B8E4-4D21-B24F-2A502D9F17A7}.Release|x86.ActiveCfg = Release|Any CPU
+		{F355C3E4-B8E4-4D21-B24F-2A502D9F17A7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -350,6 +364,7 @@ Global
 		{82287F97-0232-416D-AFCA-63A3CA0F2B48} = {E0A30A9B-DBC9-4926-BFE2-59C578D1087D}
 		{F34EB273-A4A6-4836-AD62-34AE562AA92F} = {E0A30A9B-DBC9-4926-BFE2-59C578D1087D}
 		{12ECAFBD-4BBE-471D-BE84-18143159819F} = {E0A30A9B-DBC9-4926-BFE2-59C578D1087D}
+		{F355C3E4-B8E4-4D21-B24F-2A502D9F17A7} = {E0A30A9B-DBC9-4926-BFE2-59C578D1087D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EAEA1DDA-154E-45D5-BED2-C59D0FEB0A2C}
