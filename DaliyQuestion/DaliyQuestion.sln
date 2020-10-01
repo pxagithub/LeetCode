@@ -51,13 +51,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23--617. Merge Two Binary T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "24--501. Find Mode in Binary Search Tree", "24--501. Find Mode in Binary Search Tree\24--501. Find Mode in Binary Search Tree.csproj", "{F355C3E4-B8E4-4D21-B24F-2A502D9F17A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28--117. Populating Next Right Pointers in Each Node II", "28--117. Populating Next Right Pointers in Each Node II\28--117. Populating Next Right Pointers in Each Node II.csproj", "{CF142B19-B82C-416E-BB26-B9F96C98DC25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "28--117. Populating Next Right Pointers in Each Node II", "28--117. Populating Next Right Pointers in Each Node II\28--117. Populating Next Right Pointers in Each Node II.csproj", "{CF142B19-B82C-416E-BB26-B9F96C98DC25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29--145. Binary Tree Postorder Traversal", "29--145. Binary Tree Postorder Traversal\29--145. Binary Tree Postorder Traversal.csproj", "{562287B2-9030-4192-997A-006DCC97CCA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "29--145. Binary Tree Postorder Traversal", "29--145. Binary Tree Postorder Traversal\29--145. Binary Tree Postorder Traversal.csproj", "{562287B2-9030-4192-997A-006DCC97CCA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27--235. Lowest Common Ancestor of a Binary Search Tree", "27--235. Lowest Common Ancestor of a Binary Search Tree\27--235. Lowest Common Ancestor of a Binary Search Tree.csproj", "{840A0707-47D3-47BE-9D1D-072BF926BBD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "27--235. Lowest Common Ancestor of a Binary Search Tree", "27--235. Lowest Common Ancestor of a Binary Search Tree\27--235. Lowest Common Ancestor of a Binary Search Tree.csproj", "{840A0707-47D3-47BE-9D1D-072BF926BBD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26--113. Path Sum II", "26--113. Path Sum II\26--113. Path Sum II.csproj", "{8F37E1DA-A52F-4825-B8CC-548E1AFEF63A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26--113. Path Sum II", "26--113. Path Sum II\26--113. Path Sum II.csproj", "{8F37E1DA-A52F-4825-B8CC-548E1AFEF63A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30--701.Insert into a Binary Search Tree", "30--701.Insert into a Binary Search Tree\30--701.Insert into a Binary Search Tree.csproj", "{DDD6FDF7-2DCB-4FBD-9BBB-8ED88B048CF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -393,6 +395,18 @@ Global
 		{8F37E1DA-A52F-4825-B8CC-548E1AFEF63A}.Release|x64.Build.0 = Release|Any CPU
 		{8F37E1DA-A52F-4825-B8CC-548E1AFEF63A}.Release|x86.ActiveCfg = Release|Any CPU
 		{8F37E1DA-A52F-4825-B8CC-548E1AFEF63A}.Release|x86.Build.0 = Release|Any CPU
+		{DDD6FDF7-2DCB-4FBD-9BBB-8ED88B048CF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD6FDF7-2DCB-4FBD-9BBB-8ED88B048CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD6FDF7-2DCB-4FBD-9BBB-8ED88B048CF8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DDD6FDF7-2DCB-4FBD-9BBB-8ED88B048CF8}.Debug|x64.Build.0 = Debug|Any CPU
+		{DDD6FDF7-2DCB-4FBD-9BBB-8ED88B048CF8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DDD6FDF7-2DCB-4FBD-9BBB-8ED88B048CF8}.Debug|x86.Build.0 = Debug|Any CPU
+		{DDD6FDF7-2DCB-4FBD-9BBB-8ED88B048CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD6FDF7-2DCB-4FBD-9BBB-8ED88B048CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDD6FDF7-2DCB-4FBD-9BBB-8ED88B048CF8}.Release|x64.ActiveCfg = Release|Any CPU
+		{DDD6FDF7-2DCB-4FBD-9BBB-8ED88B048CF8}.Release|x64.Build.0 = Release|Any CPU
+		{DDD6FDF7-2DCB-4FBD-9BBB-8ED88B048CF8}.Release|x86.ActiveCfg = Release|Any CPU
+		{DDD6FDF7-2DCB-4FBD-9BBB-8ED88B048CF8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -425,6 +439,7 @@ Global
 		{562287B2-9030-4192-997A-006DCC97CCA3} = {E0A30A9B-DBC9-4926-BFE2-59C578D1087D}
 		{840A0707-47D3-47BE-9D1D-072BF926BBD1} = {E0A30A9B-DBC9-4926-BFE2-59C578D1087D}
 		{8F37E1DA-A52F-4825-B8CC-548E1AFEF63A} = {E0A30A9B-DBC9-4926-BFE2-59C578D1087D}
+		{DDD6FDF7-2DCB-4FBD-9BBB-8ED88B048CF8} = {E0A30A9B-DBC9-4926-BFE2-59C578D1087D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EAEA1DDA-154E-45D5-BED2-C59D0FEB0A2C}
