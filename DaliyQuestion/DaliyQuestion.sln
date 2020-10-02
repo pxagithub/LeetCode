@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2020-10", "2020-10", "{95488171-E168-4457-8562-E1C74FDA609F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01--LCP19.Autumn leaves collection set", "01--LCP19.Autumn leaves collection set\01--LCP19.Autumn leaves collection set.csproj", "{FCC49EFA-A7F4-4654-9115-440E8AE32E51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01--LCP19.Autumn leaves collection set", "01--LCP19.Autumn leaves collection set\01--LCP19.Autumn leaves collection set.csproj", "{FCC49EFA-A7F4-4654-9115-440E8AE32E51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02--771. Jewels and Stones", "02--771. Jewels and Stones\02--771. Jewels and Stones.csproj", "{4F60696E-33B4-4489-8D31-B30A103ABD71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{FCC49EFA-A7F4-4654-9115-440E8AE32E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCC49EFA-A7F4-4654-9115-440E8AE32E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCC49EFA-A7F4-4654-9115-440E8AE32E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F60696E-33B4-4489-8D31-B30A103ABD71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F60696E-33B4-4489-8D31-B30A103ABD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F60696E-33B4-4489-8D31-B30A103ABD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F60696E-33B4-4489-8D31-B30A103ABD71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FCC49EFA-A7F4-4654-9115-440E8AE32E51} = {95488171-E168-4457-8562-E1C74FDA609F}
+		{4F60696E-33B4-4489-8D31-B30A103ABD71} = {95488171-E168-4457-8562-E1C74FDA609F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EAEA1DDA-154E-45D5-BED2-C59D0FEB0A2C}
