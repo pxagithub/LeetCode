@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07--75. Sort Colors", "07--
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14--1002. Find Common Characters", "14--1002. Find Common Characters\14--1002. Find Common Characters.csproj", "{80F83D05-EC88-4B33-8AEB-EB3CD8D74BA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15--116. Populating Next Right Pointers in Each Node", "15--116. Populating Next Right Pointers in Each Node\15--116. Populating Next Right Pointers in Each Node.csproj", "{B2E1DA64-A8E0-4FBC-ABA4-7F062079F304}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15--116. Populating Next Right Pointers in Each Node", "15--116. Populating Next Right Pointers in Each Node\15--116. Populating Next Right Pointers in Each Node.csproj", "{B2E1DA64-A8E0-4FBC-ABA4-7F062079F304}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17--52.N Queens II", "18--52.N Queens II\17--52.N Queens II.csproj", "{5CC095C6-D9C6-4ED5-8999-7FF3E6C6917C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18--19. Remove Nth Node From End of List", "18--19. Remove Nth Node From End of List\18--19. Remove Nth Node From End of List.csproj", "{DBFCB429-5DE3-4FB9-8798-42FCC1812AFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,14 @@ Global
 		{B2E1DA64-A8E0-4FBC-ABA4-7F062079F304}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2E1DA64-A8E0-4FBC-ABA4-7F062079F304}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2E1DA64-A8E0-4FBC-ABA4-7F062079F304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC095C6-D9C6-4ED5-8999-7FF3E6C6917C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC095C6-D9C6-4ED5-8999-7FF3E6C6917C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC095C6-D9C6-4ED5-8999-7FF3E6C6917C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC095C6-D9C6-4ED5-8999-7FF3E6C6917C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBFCB429-5DE3-4FB9-8798-42FCC1812AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFCB429-5DE3-4FB9-8798-42FCC1812AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFCB429-5DE3-4FB9-8798-42FCC1812AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFCB429-5DE3-4FB9-8798-42FCC1812AFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +63,8 @@ Global
 		{96AEA63C-E78C-4938-9DF5-AB60EFE98C2D} = {95488171-E168-4457-8562-E1C74FDA609F}
 		{80F83D05-EC88-4B33-8AEB-EB3CD8D74BA7} = {95488171-E168-4457-8562-E1C74FDA609F}
 		{B2E1DA64-A8E0-4FBC-ABA4-7F062079F304} = {95488171-E168-4457-8562-E1C74FDA609F}
+		{5CC095C6-D9C6-4ED5-8999-7FF3E6C6917C} = {95488171-E168-4457-8562-E1C74FDA609F}
+		{DBFCB429-5DE3-4FB9-8798-42FCC1812AFD} = {95488171-E168-4457-8562-E1C74FDA609F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EAEA1DDA-154E-45D5-BED2-C59D0FEB0A2C}
