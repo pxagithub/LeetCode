@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2020-11", "2020-11", "{020E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05--127. Word Ladder", "05--127. Word Ladder\05--127. Word Ladder.csproj", "{E32F0FD2-B1F8-4BE8-926D-209E3D784D3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06--1356. Sort Integers by The Number of 1 Bits", "06--1356. Sort Integers by The Number of 1 Bits\06--1356. Sort Integers by The Number of 1 Bits.csproj", "{F8A075E6-9771-4193-86E0-7EB71EBBEC3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06--1356. Sort Integers by The Number of 1 Bits", "06--1356. Sort Integers by The Number of 1 Bits\06--1356. Sort Integers by The Number of 1 Bits.csproj", "{F8A075E6-9771-4193-86E0-7EB71EBBEC3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07--327. Count of Range Sum", "07--327. Count of Range Sum\07--327. Count of Range Sum.csproj", "{89AF7228-14D1-4823-B031-7F1925552AB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{F8A075E6-9771-4193-86E0-7EB71EBBEC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8A075E6-9771-4193-86E0-7EB71EBBEC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8A075E6-9771-4193-86E0-7EB71EBBEC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89AF7228-14D1-4823-B031-7F1925552AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AF7228-14D1-4823-B031-7F1925552AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AF7228-14D1-4823-B031-7F1925552AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AF7228-14D1-4823-B031-7F1925552AB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E32F0FD2-B1F8-4BE8-926D-209E3D784D3E} = {020E78C0-CD48-48AD-97CC-7871BC47675E}
 		{F8A075E6-9771-4193-86E0-7EB71EBBEC3C} = {020E78C0-CD48-48AD-97CC-7871BC47675E}
+		{89AF7228-14D1-4823-B031-7F1925552AB8} = {020E78C0-CD48-48AD-97CC-7871BC47675E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EAEA1DDA-154E-45D5-BED2-C59D0FEB0A2C}
