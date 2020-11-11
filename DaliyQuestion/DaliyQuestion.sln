@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06--1356. Sort Integers by 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07--327. Count of Range Sum", "07--327. Count of Range Sum\07--327. Count of Range Sum.csproj", "{89AF7228-14D1-4823-B031-7F1925552AB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08--122. Best Time to Buy and Sell Stock II", "08--122. Best Time to Buy and Sell Stock II\08--122. Best Time to Buy and Sell Stock II.csproj", "{E49216FB-63C5-4684-BB5C-F78B146F6DB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08--122. Best Time to Buy and Sell Stock II", "08--122. Best Time to Buy and Sell Stock II\08--122. Best Time to Buy and Sell Stock II.csproj", "{E49216FB-63C5-4684-BB5C-F78B146F6DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-514.Freedom Trail", "11-514.Freedom Trail\11-514.Freedom Trail.csproj", "{4104CFA4-81EC-44C4-9A6C-3105B1D6432A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{E49216FB-63C5-4684-BB5C-F78B146F6DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E49216FB-63C5-4684-BB5C-F78B146F6DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E49216FB-63C5-4684-BB5C-F78B146F6DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4104CFA4-81EC-44C4-9A6C-3105B1D6432A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4104CFA4-81EC-44C4-9A6C-3105B1D6432A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4104CFA4-81EC-44C4-9A6C-3105B1D6432A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4104CFA4-81EC-44C4-9A6C-3105B1D6432A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{F8A075E6-9771-4193-86E0-7EB71EBBEC3C} = {020E78C0-CD48-48AD-97CC-7871BC47675E}
 		{89AF7228-14D1-4823-B031-7F1925552AB8} = {020E78C0-CD48-48AD-97CC-7871BC47675E}
 		{E49216FB-63C5-4684-BB5C-F78B146F6DB0} = {020E78C0-CD48-48AD-97CC-7871BC47675E}
+		{4104CFA4-81EC-44C4-9A6C-3105B1D6432A} = {020E78C0-CD48-48AD-97CC-7871BC47675E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EAEA1DDA-154E-45D5-BED2-C59D0FEB0A2C}
