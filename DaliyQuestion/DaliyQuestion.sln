@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08--842.Split Array into Fi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11-649.Dota2 Senate", "11-649.Dota2 Senate\11-649.Dota2 Senate.csproj", "{936B1EA3-EA02-4BD3-885E-B4B79EA83012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12--376.Wiggle Subsequence", "12--376.Wiggle Subsequence\12--376.Wiggle Subsequence.csproj", "{8CB0D82D-FDD4-462B-BA4D-F94DD30F3428}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12--376.Wiggle Subsequence", "12--376.Wiggle Subsequence\12--376.Wiggle Subsequence.csproj", "{8CB0D82D-FDD4-462B-BA4D-F94DD30F3428}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14--49. Group Anagrams", "14--49. Group Anagrams\14--49. Group Anagrams.csproj", "{9746DF16-CB51-4154-95C5-5B6871EC2517}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{8CB0D82D-FDD4-462B-BA4D-F94DD30F3428}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CB0D82D-FDD4-462B-BA4D-F94DD30F3428}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CB0D82D-FDD4-462B-BA4D-F94DD30F3428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9746DF16-CB51-4154-95C5-5B6871EC2517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9746DF16-CB51-4154-95C5-5B6871EC2517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9746DF16-CB51-4154-95C5-5B6871EC2517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9746DF16-CB51-4154-95C5-5B6871EC2517}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{1857C760-DC64-4F30-9329-0841DBF278F5} = {81439ED1-D228-426A-B752-70080D753008}
 		{936B1EA3-EA02-4BD3-885E-B4B79EA83012} = {81439ED1-D228-426A-B752-70080D753008}
 		{8CB0D82D-FDD4-462B-BA4D-F94DD30F3428} = {81439ED1-D228-426A-B752-70080D753008}
+		{9746DF16-CB51-4154-95C5-5B6871EC2517} = {81439ED1-D228-426A-B752-70080D753008}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EAEA1DDA-154E-45D5-BED2-C59D0FEB0A2C}
