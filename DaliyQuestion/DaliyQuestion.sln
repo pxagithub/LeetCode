@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2021-02", "2021-02", "{E61271F7-D2B2-44CF-A970-687006835B1A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2021-04", "2021-04", "{B0CE9128-A684-44B9-89A7-C19D18600FEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02--424. Longest Repeating Character Replacement", "02--424. Longest Repeating Character Replacement\02--424. Longest Repeating Character Replacement.csproj", "{672C2570-AF78-45B2-A7FD-51B78570333B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18--26.Remove Duplicates from Sorted Array", "18--26.Remove Duplicates from Sorted Array\18--26.Remove Duplicates from Sorted Array.csproj", "{0204BA01-F3A1-401E-8C2E-38A5709FCB97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{672C2570-AF78-45B2-A7FD-51B78570333B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{672C2570-AF78-45B2-A7FD-51B78570333B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{672C2570-AF78-45B2-A7FD-51B78570333B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{672C2570-AF78-45B2-A7FD-51B78570333B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0204BA01-F3A1-401E-8C2E-38A5709FCB97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0204BA01-F3A1-401E-8C2E-38A5709FCB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0204BA01-F3A1-401E-8C2E-38A5709FCB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0204BA01-F3A1-401E-8C2E-38A5709FCB97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{672C2570-AF78-45B2-A7FD-51B78570333B} = {E61271F7-D2B2-44CF-A970-687006835B1A}
+		{0204BA01-F3A1-401E-8C2E-38A5709FCB97} = {B0CE9128-A684-44B9-89A7-C19D18600FEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EAEA1DDA-154E-45D5-BED2-C59D0FEB0A2C}
