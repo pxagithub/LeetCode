@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2021-04", "2021-04", "{B0CE9128-A684-44B9-89A7-C19D18600FEF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2021-05", "2021-05", "{FB44E295-17B0-4888-B1E6-67488CEB9ED2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18--26.Remove Duplicates from Sorted Array", "18--26.Remove Duplicates from Sorted Array\18--26.Remove Duplicates from Sorted Array.csproj", "{0204BA01-F3A1-401E-8C2E-38A5709FCB97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-1482. Minimum Number of Days to Make m Bouquets", "09-1482. Minimum Number of Days to Make m Bouquets\09-1482. Minimum Number of Days to Make m Bouquets.csproj", "{1179EEDE-E4B9-4FC7-90B1-5AEA0A9AD22C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0204BA01-F3A1-401E-8C2E-38A5709FCB97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0204BA01-F3A1-401E-8C2E-38A5709FCB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0204BA01-F3A1-401E-8C2E-38A5709FCB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0204BA01-F3A1-401E-8C2E-38A5709FCB97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1179EEDE-E4B9-4FC7-90B1-5AEA0A9AD22C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1179EEDE-E4B9-4FC7-90B1-5AEA0A9AD22C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1179EEDE-E4B9-4FC7-90B1-5AEA0A9AD22C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1179EEDE-E4B9-4FC7-90B1-5AEA0A9AD22C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{0204BA01-F3A1-401E-8C2E-38A5709FCB97} = {B0CE9128-A684-44B9-89A7-C19D18600FEF}
+		{1179EEDE-E4B9-4FC7-90B1-5AEA0A9AD22C} = {FB44E295-17B0-4888-B1E6-67488CEB9ED2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EAEA1DDA-154E-45D5-BED2-C59D0FEB0A2C}
