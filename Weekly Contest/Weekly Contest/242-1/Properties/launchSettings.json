@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "242-2": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
