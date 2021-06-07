@@ -3,13 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2021-05", "2021-05", "{FB44E295-17B0-4888-B1E6-67488CEB9ED2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2021-06", "2021-06", "{0468C2B9-FE69-4361-839E-0E84FA3E6D15}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09-1482. Minimum Number of Days to Make m Bouquets", "09-1482. Minimum Number of Days to Make m Bouquets\09-1482. Minimum Number of Days to Make m Bouquets.csproj", "{1179EEDE-E4B9-4FC7-90B1-5AEA0A9AD22C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19-1738.Find Kth Largest XOR Coordinate Value", "19-1738.Find Kth Largest XOR Coordinate Value\19-1738.Find Kth Largest XOR Coordinate Value.csproj", "{E0959619-C3B7-4131-A916-34B41C9942AA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23-1707. 与数组中元素的最大异或值", "23-1707. 与数组中元素的最大异或值\23-1707. 与数组中元素的最大异或值.csproj", "{97DD23F0-088A-43BC-B942-10A50FCA7909}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "494. 目标和", "494. 目标和\494. 目标和.csproj", "{63A2AD9F-5208-4934-8107-E6433EACB704}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,26 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1179EEDE-E4B9-4FC7-90B1-5AEA0A9AD22C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1179EEDE-E4B9-4FC7-90B1-5AEA0A9AD22C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1179EEDE-E4B9-4FC7-90B1-5AEA0A9AD22C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1179EEDE-E4B9-4FC7-90B1-5AEA0A9AD22C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E0959619-C3B7-4131-A916-34B41C9942AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E0959619-C3B7-4131-A916-34B41C9942AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E0959619-C3B7-4131-A916-34B41C9942AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E0959619-C3B7-4131-A916-34B41C9942AA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{97DD23F0-088A-43BC-B942-10A50FCA7909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97DD23F0-088A-43BC-B942-10A50FCA7909}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97DD23F0-088A-43BC-B942-10A50FCA7909}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97DD23F0-088A-43BC-B942-10A50FCA7909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63A2AD9F-5208-4934-8107-E6433EACB704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A2AD9F-5208-4934-8107-E6433EACB704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A2AD9F-5208-4934-8107-E6433EACB704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A2AD9F-5208-4934-8107-E6433EACB704}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{1179EEDE-E4B9-4FC7-90B1-5AEA0A9AD22C} = {FB44E295-17B0-4888-B1E6-67488CEB9ED2}
-		{E0959619-C3B7-4131-A916-34B41C9942AA} = {FB44E295-17B0-4888-B1E6-67488CEB9ED2}
-		{97DD23F0-088A-43BC-B942-10A50FCA7909} = {FB44E295-17B0-4888-B1E6-67488CEB9ED2}
+		{63A2AD9F-5208-4934-8107-E6433EACB704} = {0468C2B9-FE69-4361-839E-0E84FA3E6D15}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EAEA1DDA-154E-45D5-BED2-C59D0FEB0A2C}
