@@ -1,9 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>_28__188.Best_Time_To_Buy_And_Sell_Stock_IV</RootNamespace>
-  </PropertyGroup>
-
-</Project>

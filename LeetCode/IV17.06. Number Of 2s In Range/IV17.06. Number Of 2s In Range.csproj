@@ -1,9 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>IV17._06._Number_Of_2s_In_Range</RootNamespace>
-  </PropertyGroup>
-
-</Project>

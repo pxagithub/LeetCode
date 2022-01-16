@@ -1,9 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>_15__116._Populating_Next_Right_Pointers_in_Each_Node</RootNamespace>
-  </PropertyGroup>
-
-</Project>

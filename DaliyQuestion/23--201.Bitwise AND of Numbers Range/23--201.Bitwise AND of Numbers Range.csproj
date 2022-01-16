@@ -1,9 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>_23__201.Bitwise_AND_of_Numbers_Range</RootNamespace>
-  </PropertyGroup>
-
-</Project>
